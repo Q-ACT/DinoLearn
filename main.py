@@ -64,7 +64,7 @@ def mutate_dino(dino, m_rate, step_size):
     return Dino(new_color, mutated_layers)
 
 # *** DOES NOT DO GOOD THINGS, Could be used in future though
-# Cross over weights of two different Neural Networks stored inside Dino Class
+# Cross over weights of two different Neural Networks stored inside Dino Class beacause why not
 
 # def cross_over(dino1, dino2):
 #     d1layer0 = dino1.model.layers[0].get_weights()[0]
